@@ -1,0 +1,148 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body img{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar{
+    text-align: right;
+    margin: 20px 0;
+}
+.featuredText, .featuredImage{
+    width: 40%;
+    padding: 5%;
+    float: left;
+    display: inline-block;
+}
+.featuredText{
+    padding-top: 20%;
+}
+.orange_text{
+    color: #FF8367;
+}
+h1{
+    color: #363958;
+}
+.featured{
+    overflow: hidden;
+}
+.featured p{
+    color: #3e3e3e;
+}
+.orange_button{
+    background-image: linear-gradient(to right, #FB5F52 , #F69C74);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.orange_button a{
+    text-decoration: none;
+    color: white;
+}
+.work{
+    width: 29%;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    ;
+}
+.works{
+    padding: 50px 0;
+    
+}
+.latestWork h1{
+    text-align: center;
+}
+.latestWork{
+    background-color: #E5E5E5;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.latestWork h4{
+    color: #363958;
+}
+.latestWork p{
+    color: #6C6C6C;
+    ;
+}
+
+.inquiry h1,.inquiry .buttonArea{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    
+    
+}
+.buttonArea{
+    text-align: right;
+}
+.inquiry h1{
+    text-align: left;
+    color: white;
+}
+.inquiry{
+    width: 50%;
+    overflow: hidden;
+    background-image: url(images/Group_33094_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+}
+.socialMedia{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.socialMedia img{
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+}
+.socialMedia h3{
+    color: #696871;
+}
+.socialMedia .EMAIL{
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+footer{
+    background-color: gray;
+    
+}
+.footerText{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 50px 0;
+}
