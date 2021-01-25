@@ -31,7 +31,7 @@ body img{
 .featuredText, .featuredImage{
     width: 40%;
     padding: 5%;
-    float: left;
+    float:left;
     display: inline-block;
 }
 .featuredText{
@@ -94,7 +94,6 @@ h1{
 .inquiry h1,.inquiry .buttonArea{
     width: 50%;
     float: left;
-    overflow: hidden;
     margin: 0;
     
     
@@ -108,7 +107,7 @@ h1{
 }
 .inquiry{
     width: 50%;
-    overflow: hidden;
+    clear: both;
     background-image: url(images/Group_33094_1.png);
     background-size: 100%;
     background-repeat: no-repeat;
